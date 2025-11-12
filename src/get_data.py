@@ -1,7 +1,7 @@
 import random, datetime, os, shutil, math
 
-train_dir = "/data/train"
-test_dir = "/data/test"
+train_dir = "data/train"
+test_dir = "data/test"
 
 def prep_test_data(pokemon, train_dir, test_dir):
     pop = os.listdir(train_dir+'/'+pokemon)
