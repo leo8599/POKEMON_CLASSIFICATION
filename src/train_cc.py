@@ -10,7 +10,7 @@ from torchvision import transforms
 
 def main():
     # Setup hyperparameters
-    NUM_EPOCHS = 5
+    NUM_EPOCHS = 20
     BATCH_SIZE = 32
     HIDDEN_UNITS = 64
     LEARNING_RATE = 0.001
