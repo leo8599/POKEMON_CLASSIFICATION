@@ -10,9 +10,9 @@ from torchvision import transforms
 
 def main():
     # Setup hyperparameters
-    NUM_EPOCHS = 10
+    NUM_EPOCHS = 5
     BATCH_SIZE = 32
-    HIDDEN_UNITS = 15
+    HIDDEN_UNITS = 64
     LEARNING_RATE = 0.001
 
     # Setup directories
@@ -71,7 +71,7 @@ def main():
     # Set loss and optimizer
     loss_fn = torch.nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters()
-                                 #,lr=LEARNING_RATE
+                                 ,lr=LEARNING_RATE
                                  )
 
     # Start training with help from engine.py
