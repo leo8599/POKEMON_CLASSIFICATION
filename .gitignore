@@ -9,8 +9,8 @@ __pycache__/
 # Miscellaneous
 **/.DS_Store
 **/.vscode/
-/data/train
-/data/test
+/data/train/
+/data/test/
 /models/pokemon_tinyvgg_v0.pth
 #/notebooks
 
