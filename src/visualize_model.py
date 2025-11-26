@@ -22,7 +22,11 @@ model_stats = summary(model,
 print(model_stats)
 
 # Guardar esto en un archivo de texto para tu reporte
-with open("model_architecture_summary.txt", "w") as f:
+# with open("model_architecture_summary.txt", "w") as f:
+#     f.write(str(model_stats))
+
+# CÓDIGO CORREGIDO (AGREGA encoding="utf-8")
+with open("model_architecture_summary.txt", "w", encoding="utf-8") as f:
     f.write(str(model_stats))
 
 # ---------------------------------------------------------
